@@ -1,4 +1,4 @@
-# tmdb-ts
+# tmdb-ts-wrapper
 An unofficial TypeScript wrapper for TMDB's API. Supports v3 and v4.
 
 ## Install
