@@ -3,7 +3,7 @@ An unofficial TypeScript wrapper for TMDB's API. Supports v3 and v4.
 
 ## Install
 ```javascript
-npm i tmdb-ts
+npm i tmdb-ts-wrapper
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm i tmdb-ts
 
 #### Import
 ```javascript
-import { TMDB } from 'tmdb-ts';
+import { TMDB } from 'tmdb-ts-wrapper';
 ```
 
 #### Instantiate
@@ -70,7 +70,7 @@ To use [append_to_response](https://developers.themoviedb.org/3/getting-started/
 
 For example:
 ```typescript
-import { Movie, Video } from 'tmdb-ts';
+import { Movie, Video } from 'tmdb-ts-wrapper';
 
 interface MovieVideo extends Movie {
     videos: {
