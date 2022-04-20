@@ -1,0 +1,35 @@
+{
+  "name": "tmdb-ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Unofficial TypeScript API wrapper for TMDB v3 & v4.",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "tmdb",
+    "typescript",
+    "v4",
+    "api-wrapper"
+  ],
+  "author": "AaronWLChan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "homepage": "https://github.com/AaronWLChan/tmdb-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronWLChan/tmdb-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AaronWLChan/tmdb-ts/issues"
+  }
+}
