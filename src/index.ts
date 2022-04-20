@@ -4,7 +4,6 @@ import { Accountv4, Accountv3, Authenticationv3, Authenticationv4, Certification
     TVSeasons, WatchProviders, Generic } from "./endpoints"
 import { AcceptedLanguage, Config, ImageOptions } from "./types"
 
-//CHECK FOR TYPOS AND REQUIRED/OPTIONAL and add class references for querystrings
 export class TMDB {
 
     private config: Config
